@@ -1,0 +1,67 @@
+# pinmap.pcf
+
+set_io --warn-no-port leds[7] B5
+set_io --warn-no-port leds[6] B4
+set_io --warn-no-port leds[5] A2
+set_io --warn-no-port leds[4] A1
+set_io --warn-no-port leds[3] C5
+set_io --warn-no-port leds[2] C4
+set_io --warn-no-port leds[1] B3
+set_io --warn-no-port leds[0] C3
+
+set_io --warn-no-port a_addr[0] T9
+set_io --warn-no-port a_addr[1] P9
+set_io --warn-no-port a_addr[2] P8
+set_io --warn-no-port a_addr[3] R10
+set_io --warn-no-port a_addr[4] T10
+set_io --warn-no-port a_addr[5] P10
+set_io --warn-no-port a_addr[6] T11
+set_io --warn-no-port a_addr[7] L3
+set_io --warn-no-port a_addr[8] L1
+set_io --warn-no-port a_addr[9] M2
+set_io --warn-no-port a_addr[10] M1
+set_io --warn-no-port a_addr[11] N3
+set_io --warn-no-port a_addr[12] N2
+set_io --warn-no-port a_addr[13] P1
+set_io --warn-no-port a_addr[14] P2
+set_io --warn-no-port a_addr[15] R1
+
+set_io --warn-no-port a_data[0] B2 
+set_io --warn-no-port a_data[1] C1
+set_io --warn-no-port a_data[2] C2
+set_io --warn-no-port a_data[3] D1
+set_io --warn-no-port a_data[4] D2
+set_io --warn-no-port a_data[5] E2
+set_io --warn-no-port a_data[6] F1
+set_io --warn-no-port a_data[7] F2
+
+set_io --warn-no-port cpu_rwb G1
+set_io --warn-no-port clk_1mhz R9
+set_io --warn-no-port cpu_sync R2
+set_io --warn-no-port cpu_reset T2
+set_io --warn-no-port cpu_vpb B1
+
+set_io --warn-no-port data_out[7] T8
+set_io --warn-no-port data_out[6] T6
+set_io --warn-no-port data_out[5] T5
+set_io --warn-no-port data_out[4] R5
+set_io --warn-no-port data_out[3] R6
+set_io --warn-no-port data_out[2] R3
+set_io --warn-no-port data_out[1] R4
+set_io --warn-no-port data_out[0] T3
+
+set_io --warn-no-port b_en T7 
+
+set_io --warn-no-port cs_rom H2
+set_io --warn-no-port cs_lram J1
+set_io --warn-no-port cs_hram J2
+set_io --warn-no-port cs_sid K1
+set_io --warn-no-port cpu_int G2
+set_io --warn-no-port cpu_nmi K3
+set_io --warn-no-port cpu_rdy H1
+set_io --warn-no-port cpu_be R16
+
+
+set_io --warn-no-port clk_12mhz J3
+set_io --warn-no-port ftdi_tx B12
+set_io --warn-no-port ftdi_rx B10
